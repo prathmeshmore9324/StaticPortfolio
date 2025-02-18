@@ -1,4 +1,5 @@
 import  "react";
+import LanguageGrid from "./LanguageGrid";
 
 const About = () => {
   return (
@@ -29,6 +30,9 @@ const About = () => {
             LinkedIn
           </a>
         </div>
+      </div>
+      <div className="">
+        <LanguageGrid />
       </div>
     </div>
   );
